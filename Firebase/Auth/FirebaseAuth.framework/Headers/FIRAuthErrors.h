@@ -151,6 +151,19 @@ typedef NS_ENUM(NSInteger, FIRAuthErrorCode) {
      */
     FIRAuthErrorCodeInvalidActionCode = 17030,
 
+    /** Indicates that there are invalid parameters in the payload during a "send password reset
+     *  email" attempt.
+     */
+    FIRAuthErrorCodeInvalidMessagePayload = 17031,
+
+    /** Indicates that the sender email is invalid during a "send password reset email" attempt.
+     */
+    FIRAuthErrorCodeInvalidSender = 17032,
+
+    /** Indicates that the recipient email is invalid.
+     */
+    FIRAuthErrorCodeInvalidRecipientEmail = 17033,
+
     /** Indicates an error occurred while attempting to access the keychain.
      */
     FIRAuthErrorCodeKeychainError = 17995,

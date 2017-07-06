@@ -40,7 +40,7 @@ To integrate a Firebase SDK with your app:
    if needed".
 7. Add the -ObjC flag to "Other Linker Settings":
   a. In your project settings, open the Settings panel for your target
-  b. Go to the Build Settings tab and find the "Other Linking Flags" setting
+  b. Go to the Build Settings tab and find the "Other Linker Flags" setting
      in the Linking section.
   c. Double-click the setting, click the '+' button, and add "-ObjC" (without
      quotes)
@@ -71,8 +71,6 @@ should make sure to include all of the frameworks from X when including the SDK.
   - FirebaseAnalytics.framework
   - FirebaseCore.framework
   - FirebaseInstanceID.framework
-  - GoogleInterchangeUtilities.framework
-  - GoogleSymbolUtilities.framework
   - GoogleToolboxForMac.framework
 ## AdMob (~> Analytics)
   - GoogleMobileAds.framework
@@ -83,6 +81,7 @@ should make sure to include all of the frameworks from X when including the SDK.
   - GTMSessionFetcher.framework
 ## Crash (~> Analytics)
   - FirebaseCrash.framework
+  - Protobuf.framework
 ## Database (~> Analytics)
   - FirebaseDatabase.framework
 ## DynamicLinks (~> Analytics)
@@ -93,16 +92,18 @@ should make sure to include all of the frameworks from X when including the SDK.
   - GTMOAuth2.framework
   - GTMSessionFetcher.framework
   - GoogleAPIClientForREST.framework
-  - GoogleAppUtilities.framework
   - GoogleSignIn.framework
+  - Protobuf.framework
 
   You'll also need to add the resources in the
   Resources directory into your target's main
   bundle.
 ## Messaging (~> Analytics)
   - FirebaseMessaging.framework
+  - Protobuf.framework
 ## RemoteConfig (~> Analytics)
   - FirebaseRemoteConfig.framework
+  - Protobuf.framework
 ## Storage (~> Analytics)
   - FirebaseStorage.framework
   - GTMSessionFetcher.framework
@@ -127,26 +128,24 @@ Pod in its next major version increase.
 
            CocoaPod           | Version
 ----------------------------- | -------
-Firebase                      | 3.12.0
-FirebaseAnalytics             | 3.6.0
+Firebase                      | 3.13.0
+FirebaseAnalytics             | 3.7.0
 FirebaseAppIndexing           | 1.2.0
-FirebaseAuth                  | 3.1.0
-FirebaseCore                  | 3.4.7
-FirebaseCrash                 | 1.1.5
-FirebaseDatabase              | 3.1.1
-FirebaseDynamicLinks          | 1.3.2
-FirebaseInstanceID            | 1.0.8
-FirebaseInvites               | 1.2.3
-FirebaseMessaging             | 1.2.1
-FirebaseRemoteConfig          | 1.3.2
-FirebaseStorage               | 1.0.5
+FirebaseAuth                  | 3.1.1
+FirebaseCore                  | 3.5.0
+FirebaseCrash                 | 1.1.6
+FirebaseDatabase              | 3.1.2
+FirebaseDynamicLinks          | 1.3.3
+FirebaseInstanceID            | 1.0.9
+FirebaseInvites               | 1.2.4
+FirebaseMessaging             | 1.2.2
+FirebaseRemoteConfig          | 1.3.3
+FirebaseStorage               | 1.0.6
 GTMOAuth2                     | 1.1.4
 GTMSessionFetcher             | 1.1.8
 Google-Mobile-Ads-SDK         | 7.17.0
 GoogleAPIClientForREST        | 1.2.0
-GoogleAppUtilities            | 1.1.2
-GoogleInterchangeUtilities    | 1.2.2
-GoogleSignIn                  | 4.0.1
-GoogleSymbolUtilities         | 1.1.2
+GoogleSignIn                  | 4.0.2
 GoogleToolboxForMac           | 2.1.1
+Protobuf                      | 3.2.0
 

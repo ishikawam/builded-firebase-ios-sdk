@@ -141,18 +141,18 @@ typedef NS_ENUM(NSInteger, FIRStorageErrorCode) {
   FIRStorageErrorCodeRetryLimitExceeded = -13030,
 
   /**
-   * File on the client does not match the checksum of the file recieved by the server.
+   * File on the client does not match the checksum of the file received by the server.
    * Try uploading again.
    */
   FIRStorageErrorCodeNonMatchingChecksum = -13031,
-
-  /** User canceled the operation. */
-  FIRStorageErrorCodeDownloadSizeExceeded = -13032,
 
   /**
    * Size of the downloaded file exceeds the amount of memory allocated for the download.
    * Increase memory cap and try downloading again.
    */
+  FIRStorageErrorCodeDownloadSizeExceeded = -13032,
+
+  /** User cancelled the operation. */
   FIRStorageErrorCodeCancelled = -13040
 };
 

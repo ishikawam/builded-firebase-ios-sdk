@@ -16,6 +16,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/** Project version string for FirebaseStorage. */
+FOUNDATION_EXPORT const unsigned char *const FirebaseStorageVersionString;
+
 /**
  * FirebaseStorage is a service that supports uploading and downloading binary objects,
  * such as images, videos, and other files to Google Cloud Storage.

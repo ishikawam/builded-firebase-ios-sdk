@@ -87,6 +87,15 @@ typedef void (^FIRSendEmailVerificationCallback)(NSError *_Nullable error);
 
     @remarks Possible error codes:
     <ul>
+        <li>@c FIRAuthErrorCodeInvalidRecipientEmail - Indicates an invalid recipient email was
+            sent in the request.
+        </li>
+        <li>@c FIRAuthErrorCodeInvalidSender - Indicates an invalid sender email is set in
+            the console for this action.
+        </li>
+        <li>@c FIRAuthErrorCodeInvalidMessagePayload - Indicates an invalid email template for
+            sending update email.
+        </li>
         <li>@c FIRAuthErrorCodeEmailAlreadyInUse - Indicates the email is already in use by another
             account.
         </li>
@@ -147,8 +156,8 @@ typedef void (^FIRSendEmailVerificationCallback)(NSError *_Nullable error);
     @param completion Optionally; the block invoked when the reload has finished. Invoked
         asynchronously on the main thread in the future.
 
-    @remarks May fail with a @c FIRAuthErrorCodeCredentialTooOld error code. In this case you should
-        call @c FIRUser.reauthenticateWithCredential:completion: before re-invoking
+    @remarks May fail with a @c FIRAuthErrorCodeRequiresRecentLogin error code. In this case
+        you should call @c FIRUser.reauthenticateWithCredential:completion: before re-invoking
         @c FIRUser.updateEmail:completion:.
 
     @remarks See @c FIRAuthErrors for a list of error codes that are common to all API methods.
@@ -288,6 +297,15 @@ typedef void (^FIRSendEmailVerificationCallback)(NSError *_Nullable error);
 
     @remarks Possible error codes:
     <ul>
+        <li>@c FIRAuthErrorCodeInvalidRecipientEmail - Indicates an invalid recipient email was
+            sent in the request.
+        </li>
+        <li>@c FIRAuthErrorCodeInvalidSender - Indicates an invalid sender email is set in
+            the console for this action.
+        </li>
+        <li>@c FIRAuthErrorCodeInvalidMessagePayload - Indicates an invalid email template for
+            sending update email.
+        </li>
         <li>@c FIRAuthErrorCodeUserNotFound - Indicates the user account was not found.</li>
     </ul>
 
