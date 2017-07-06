@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <FirebaseAuth/FIRAuth.h>
-#import <FirebaseAuth/FIRUserInfo.h>
+#import "FIRAuth.h"
+#import "FIRUserInfo.h"
 
 @class FIRUserProfileChangeRequest;
 

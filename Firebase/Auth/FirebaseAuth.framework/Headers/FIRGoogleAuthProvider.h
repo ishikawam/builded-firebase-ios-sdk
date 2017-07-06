@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/** @var FIRGoogleAuthProviderID
+/**
     @brief A string constant identifying the Google identity provider.
  */
 extern NSString *const FIRGoogleAuthProviderID;

@@ -27,17 +27,17 @@
  */
 @interface FIRAuthErrors
 
-/** @var FIRAuthErrorDomain
+/**
     @brief The Firebase Auth error domain.
  */
 extern NSString *const FIRAuthErrorDomain;
 
-/** @var FIRAuthErrorNameKey
+/**
     @brief The name of the key for the "error_name" string in the NSError userinfo dictionary.
  */
 extern NSString *const FIRAuthErrorNameKey;
 
-/** @enum FIRAuthErrorCode
+/**
     @brief Error codes used by Firebase Auth.
  */
 typedef NS_ENUM(NSInteger, FIRAuthErrorCode) {

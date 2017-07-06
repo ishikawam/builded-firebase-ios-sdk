@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/** @var FIREmailPasswordAuthProviderID
+/**
     @brief A string constant identifying the email & password identity provider.
  */
 extern NSString *const FIREmailPasswordAuthProviderID;

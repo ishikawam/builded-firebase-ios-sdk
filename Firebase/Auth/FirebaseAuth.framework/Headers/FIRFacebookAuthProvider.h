@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/** @var FIRFacebookAuthProviderID
+/**
     @brief A string constant identifying the Facebook identity provider.
  */
 extern NSString *const FIRFacebookAuthProviderID;

@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/** @var FIRGitHubAuthProviderID
+/**
     @brief A string constant identifying the GitHub identity provider.
  */
 extern NSString *const FIRGitHubAuthProviderID;

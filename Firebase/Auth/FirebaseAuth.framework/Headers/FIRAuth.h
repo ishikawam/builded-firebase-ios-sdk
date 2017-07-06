@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <FirebaseAuth/FIRAuthErrors.h>
+#import "FIRAuthErrors.h"
 
 @class FIRApp;
 @class FIRAuth;
@@ -30,7 +30,7 @@ typedef id<NSObject> FIRAuthStateDidChangeListenerHandle;
  */
 typedef void(^FIRAuthStateDidChangeListenerBlock)(FIRAuth *auth, FIRUser *_Nullable user);
 
-/** @var FIRAuthStateDidChangeNotification
+/**
     @brief The name of the @c NSNotificationCenter notification which is posted when the auth state
         changes (for example, a new token has been produced, a user signs in or signs out). The
         object parameter of the notification is the sender @c FIRAuth instance.
@@ -93,7 +93,7 @@ typedef void (^FIRVerifyPasswordResetCodeCallback)(NSString *_Nullable email,
  */
 typedef void (^FIRApplyActionCodeCallback)(NSError *_Nullable error);
 
-/** @enum FIRActionDataKey
+/**
     @brief Keys used to retrieve operation data from a @c FIRActionCodeInfo object by the @c
         dataForKey method.
   */
@@ -113,7 +113,7 @@ typedef NS_ENUM(NSInteger, FIRActionDataKey) {
  */
 @interface FIRActionCodeInfo : NSObject
 
-/** @enum FIRActionCodeOperation
+/**
     @brief Operations which can be performed with action codes.
   */
 typedef NS_ENUM(NSInteger, FIRActionCodeOperation) {
@@ -127,7 +127,7 @@ typedef NS_ENUM(NSInteger, FIRActionCodeOperation) {
     FIRActionCodeOperationVerifyEmail = 2
 };
 
-/** @var operation.
+/**
     @brief The operation being performed.
  */
 @property(nonatomic, readonly) FIRActionCodeOperation operation;

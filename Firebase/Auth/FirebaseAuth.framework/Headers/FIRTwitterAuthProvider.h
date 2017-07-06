@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/** @var FIRTwitterAuthProviderID
+/**
     @brief A string constant identifying the Twitter identity provider.
  */
 extern NSString *const FIRTwitterAuthProviderID;
