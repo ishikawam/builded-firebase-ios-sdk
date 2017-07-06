@@ -27,6 +27,12 @@ To integrate a Firebase SDK with your app:
    SDK, look in the Database folder for the required frameworks. In the dialog
    box that appears, make sure the target you want this framework to be added to
    has a checkmark next to it, and that you've selected "Copy items if needed."
+
+   *Do not add the Firebase frameworks to the "Embed Frameworks" Xcode build
+   phase. The Firebase frameworks are not embedded dynamic frameworks, but are
+   (static frameworks)[https://www.raywenderlich.com/65964/create-a-framework-for-ios]
+   which cannot be embedded into your application's bundle.*
+
 6. If the SDK has resources, go into the Resources folders, which will be in
    the SDK folder. Drag all of those resources into the Project Navigator, just
    like the frameworks, again making sure that the target you want to add these
@@ -121,11 +127,11 @@ Pod in its next major version increase.
 
            CocoaPod           | Version
 ----------------------------- | -------
-Firebase                      | 3.10.0
+Firebase                      | 3.11.0
 FirebaseAnalytics             | 3.6.0
 FirebaseAppIndexing           | 1.2.0
-FirebaseAuth                  | 3.0.6
-FirebaseCore                  | 3.4.5
+FirebaseAuth                  | 3.1.0
+FirebaseCore                  | 3.4.6
 FirebaseCrash                 | 1.1.4
 FirebaseDatabase              | 3.1.1
 FirebaseDynamicLinks          | 1.3.2
@@ -136,7 +142,7 @@ FirebaseRemoteConfig          | 1.3.1
 FirebaseStorage               | 1.0.5
 GTMOAuth2                     | 1.1.4
 GTMSessionFetcher             | 1.1.7
-Google-Mobile-Ads-SDK         | 7.15.0
+Google-Mobile-Ads-SDK         | 7.16.0
 GoogleAPIClientForREST        | 1.1.1
 GoogleAppUtilities            | 1.1.2
 GoogleInterchangeUtilities    | 1.2.2
