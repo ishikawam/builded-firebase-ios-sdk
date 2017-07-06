@@ -128,16 +128,16 @@ Pod in its next major version increase.
 
            CocoaPod           | Version
 ----------------------------- | -------
-Firebase                      | 3.16.0
-FirebaseAnalytics             | 3.8.0
+Firebase                      | 3.17.0
+FirebaseAnalytics             | 3.9.0
 FirebaseAppIndexing           | 1.2.0
 FirebaseAuth                  | 3.1.1
 FirebaseCore                  | 3.6.0
 FirebaseCrash                 | 1.1.6
 FirebaseDatabase              | 3.1.2
-FirebaseDynamicLinks          | 1.3.5
+FirebaseDynamicLinks          | 1.4.0
 FirebaseInstanceID            | 1.0.10
-FirebaseInvites               | 1.2.6
+FirebaseInvites               | 1.3.0
 FirebaseMessaging             | 1.2.3
 FirebaseRemoteConfig          | 1.3.4
 FirebaseStorage               | 1.1.0
