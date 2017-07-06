@@ -51,7 +51,7 @@ typedef NS_ENUM(NSUInteger, FIRReceivedInviteMatchType) {
 /// |invitationsIds| holds the IDs of the invitations sent by the user.
 /// |error| is nil upon success. Otherwise, it will contain one of the errors defined in
 /// FIRInvitesError.h.
-- (void)inviteFinishedWithInvitations:(NSArray *)invitationIds
+- (void)inviteFinishedWithInvitations:(NSArray <NSString *> *)invitationIds
                                 error:(nullable NSError *)error;
 
 @end

@@ -128,24 +128,24 @@ Pod in its next major version increase.
 
            CocoaPod           | Version
 ----------------------------- | -------
-Firebase                      | 3.15.0
-FirebaseAnalytics             | 3.7.0
+Firebase                      | 3.16.0
+FirebaseAnalytics             | 3.8.0
 FirebaseAppIndexing           | 1.2.0
 FirebaseAuth                  | 3.1.1
-FirebaseCore                  | 3.5.2
+FirebaseCore                  | 3.6.0
 FirebaseCrash                 | 1.1.6
 FirebaseDatabase              | 3.1.2
-FirebaseDynamicLinks          | 1.3.4
-FirebaseInstanceID            | 1.0.9
-FirebaseInvites               | 1.2.5
-FirebaseMessaging             | 1.2.2
+FirebaseDynamicLinks          | 1.3.5
+FirebaseInstanceID            | 1.0.10
+FirebaseInvites               | 1.2.6
+FirebaseMessaging             | 1.2.3
 FirebaseRemoteConfig          | 1.3.4
 FirebaseStorage               | 1.1.0
 GTMOAuth2                     | 1.1.4
 GTMSessionFetcher             | 1.1.9
-Google-Mobile-Ads-SDK         | 7.19.0
+Google-Mobile-Ads-SDK         | 7.19.1
 GoogleAPIClientForREST        | 1.2.1
 GoogleSignIn                  | 4.0.2
 GoogleToolboxForMac           | 2.1.1
-Protobuf                      | 3.2.0
+Protobuf                      | 3.2.1
 
