@@ -129,17 +129,17 @@ CocoaPods.
 
            CocoaPod           | Version
 ----------------------------- | -------
-Firebase                      | 4.0.1
-FirebaseAnalytics             | 4.0.0
+Firebase                      | 4.0.2
+FirebaseAnalytics             | 4.0.1
 FirebaseAuth                  | 4.0.0
-FirebaseCore                  | 4.0.1
+FirebaseCore                  | 4.0.2
 FirebaseCrash                 | 2.0.0
 FirebaseDatabase              | 4.0.0
 FirebaseDynamicLinks          | 2.0.0
 FirebaseInstanceID            | 2.0.0
 FirebaseInvites               | 2.0.0
 FirebaseMessaging             | 2.0.0
-FirebasePerformance           | 1.0.1
+FirebasePerformance           | 1.0.2
 FirebaseRemoteConfig          | 2.0.0
 FirebaseStorage               | 2.0.0
 GTMOAuth2                     | 1.1.4
