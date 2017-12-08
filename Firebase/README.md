@@ -69,11 +69,15 @@ should make sure to include all of the frameworks from X when including the SDK.
 
 ## Analytics
   - FirebaseAnalytics.framework
-  - FirebaseCore.framework
   - FirebaseCoreDiagnostics.framework
   - FirebaseNanoPB.framework
+  - FirebaseCore.framework
   - FirebaseInstanceID.framework
   - GoogleToolboxForMac.framework
+  - nanopb.framework
+## ABTesting (~> Analytics)
+  - FirebaseABTesting.framework
+  - Protobuf.framework
 ## AdMob (~> Analytics)
   - GoogleMobileAds.framework
 ## Auth (~> Analytics)
@@ -84,8 +88,24 @@ should make sure to include all of the frameworks from X when including the SDK.
   - Protobuf.framework
 ## Database (~> Analytics)
   - FirebaseDatabase.framework
+  - leveldb-library.framework
 ## DynamicLinks (~> Analytics)
   - FirebaseDynamicLinks.framework
+## Firestore (~> Analytics)
+  - BoringSSL.framework
+  - FirebaseAuth.framework
+  - FirebaseFirestore.framework
+  - GTMSessionFetcher.framework
+  - Protobuf.framework
+  - gRPC.framework
+  - gRPC-Core.framework
+  - gRPC-ProtoRPC.framework
+  - gRPC-RxLibrary.framework
+  - leveldb-library.framework
+
+  You'll also need to add the resources in the
+  Resources directory into your target's main
+  bundle.
 ## Invites (~> Analytics)
   - FirebaseDynamicLinks.framework
   - FirebaseInvites.framework
@@ -103,9 +123,11 @@ should make sure to include all of the frameworks from X when including the SDK.
   - Protobuf.framework
 ## Performance (~> Analytics)
   - FirebasePerformance.framework
+  - FirebaseSwizzlingUtilities.framework
   - GTMSessionFetcher.framework
   - Protobuf.framework
 ## RemoteConfig (~> Analytics)
+  - FirebaseABTesting.framework
   - FirebaseRemoteConfig.framework
   - Protobuf.framework
 ## Storage (~> Analytics)
@@ -129,24 +151,34 @@ CocoaPods.
 
            CocoaPod           | Version
 ----------------------------- | -------
-Firebase                      | 4.0.3
-FirebaseAnalytics             | 4.0.2
-FirebaseAuth                  | 4.0.0
-FirebaseCore                  | 4.0.3
-FirebaseCrash                 | 2.0.0
-FirebaseDatabase              | 4.0.0
-FirebaseDynamicLinks          | 2.0.0
-FirebaseInstanceID            | 2.0.0
-FirebaseInvites               | 2.0.0
-FirebaseMessaging             | 2.0.0
-FirebasePerformance           | 1.0.3
-FirebaseRemoteConfig          | 2.0.1
-FirebaseStorage               | 2.0.0
-GTMOAuth2                     | 1.1.4
-GTMSessionFetcher             | 1.1.10
-Google-Mobile-Ads-SDK         | 7.21.0
-GoogleAPIClientForREST        | 1.3.0
-GoogleSignIn                  | 4.0.2
-GoogleToolboxForMac           | 2.1.1
-Protobuf                      | 3.3.0
+BoringSSL                     | 9.1
+Firebase                      | 4.7.0
+FirebaseABTesting             | 1.0.0
+FirebaseAnalytics             | 4.0.5
+FirebaseAuth                  | 4.4.0
+FirebaseCore                  | 4.0.12
+FirebaseCrash                 | 2.0.2
+FirebaseDatabase              | 4.1.2
+FirebaseDynamicLinks          | 2.3.0
+FirebaseFirestore             | 0.9.3
+FirebaseInstanceID            | 2.0.7
+FirebaseInvites               | 2.0.2
+FirebaseMessaging             | 2.0.7
+FirebasePerformance           | 1.0.7
+FirebaseRemoteConfig          | 2.1.0
+FirebaseStorage               | 2.1.0
+FirebaseSwizzlingUtilities    | 1.0.0
+GTMOAuth2                     | 1.1.5
+GTMSessionFetcher             | 1.1.12
+Google-Mobile-Ads-SDK         | 7.26.0
+GoogleAPIClientForREST        | 1.3.1
+GoogleSignIn                  | 4.1.1
+GoogleToolboxForMac           | 2.1.3
+Protobuf                      | 3.5.0
+gRPC                          | 1.7.1
+gRPC-Core                     | 1.7.1
+gRPC-ProtoRPC                 | 1.7.1
+gRPC-RxLibrary                | 1.7.1
+leveldb-library               | 1.20
+nanopb                        | 0.3.8
 
